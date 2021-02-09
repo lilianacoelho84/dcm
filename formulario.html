@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+
+<nav class="horizontal-menu type2">
+    <div class="lang-wrapper"><i class="icon-globe"></i> PT <i class="icone-more">&nbsp;</i></div>
+    <img  src="logo_novo-removebg-preview.png"
+     
+    />  
+    <i class="icone-burguer">&nbsp;</i>
+
+    <ul>
+        <li>
+            <a href="As especiarias da Lili.html">Inicio<i class="icone-more">&nbsp;</i></a>
+           
+           
+        </li>
+        <li><a href="formulario.html">Formulário</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li class="search-icon"><i class="icone-search">&nbsp;</i></li>
+    </ul>
+</nav> 
+
+<body>
+    <form class="formulario" method="post"> 
+        <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+</body>
+</html>
