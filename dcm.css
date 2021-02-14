@@ -238,19 +238,37 @@ footer {
     }
     
 
+    
 
-.p1 {
-  font-family: "Times New Roman", Times, serif;
 
-}
+    .p1 {
+        font-family:Arial, Helvetica, sans-serif ;
+      }
+      
+      .p2 {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .p3 {
+        font-family:Arial, Helvetica, sans-serif ;
+      }
+      
+          
+               
+      body{
+        background: url(../img/bg.jpg) no-repeat center center fixed;
+        background-size: cover; /*Css padrão*/
+        -webkit-background-size: cover; /*Css safari e chrome*/
+        -moz-background-size: cover; /*Css firefox*/
+        -ms-background-size: cover; /*Css IE não use mer#^@%#*/
+        -o-background-size: cover; /*Css Opera*/
+      }
+    
+ 
 
-.p2 {
-  font-family: "Times New Roman", Times, serif;
-}
 
-.p3 {
-  font-family: "Times New Roman", Times, serif;
-}
+
+
 
 
 
