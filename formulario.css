@@ -30,7 +30,7 @@ textarea{
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    border: 1px solid #ccc;
+    border: 1px #f1ff0;
     outline: none;
 }
 input#nao{
@@ -44,7 +44,7 @@ textarea{
 }
 input[type=submit]{
     display: block;
-    background-color: #ccc;
+    background-color:#dfe2e7;
     height: 35px;
     border: none;
     outline: 0;
